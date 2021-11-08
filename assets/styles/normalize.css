@@ -1,0 +1,9 @@
+@media screen and (max-width:425px) {
+    .texttop_links {
+        display: none;
+    }
+    .section_Subscribe_to_change {
+        display: none;
+    }
+    }
+    
