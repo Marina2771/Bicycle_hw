@@ -232,7 +232,7 @@ body {
 .section_built_to_move {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background: #FBF7F3;
 }
 
