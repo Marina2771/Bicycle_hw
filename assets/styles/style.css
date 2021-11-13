@@ -356,6 +356,8 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background: #F7F0EA;
 }
 
@@ -385,5 +387,9 @@ body {
     line-height: 22px;
     text-align: center;
     color: #49464F;
+}
+
+.footer_img_place {
+    padding-top: 165px;
 }
 
