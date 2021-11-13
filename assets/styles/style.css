@@ -147,6 +147,10 @@ body {
     background: #FBF7F3;
 }
 
+.ride img {
+    margin: 0px;
+}
+
 .ride_text {
     display: flex;
     flex-direction: column;
@@ -202,11 +206,14 @@ body {
     border-radius: 50%;
     background: #7140EB;**/
     margin-right: 15px;
+    padding-right: 15px;
 }
 
 .Subscription_benefits_block_row {
     display: flex;
     flex-direction: row;
+    justify-content: space-between; /**не читает**/
+    margin-left: 0px;
     align-items: center;
     padding: 15px;
     font-family: Roboto;
@@ -214,7 +221,7 @@ body {
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
-    color: #8172A2;
+    color: #8172A2; 
 }
 
 .section_built_to_move {
