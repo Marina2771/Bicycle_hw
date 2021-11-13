@@ -25,6 +25,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 20px;
 }
 
 .header_image_2 {
