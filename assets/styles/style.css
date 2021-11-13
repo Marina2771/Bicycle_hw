@@ -219,8 +219,6 @@ body {
 .Subscription_benefits_block_row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; /**не читает**/
-    margin-left: 0px;
     align-items: center;
     padding: 15px;
     font-family: Roboto;
