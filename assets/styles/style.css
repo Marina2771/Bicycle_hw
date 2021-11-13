@@ -257,9 +257,11 @@ body {
 }
 
 .section_battery_belt_power {
-    padding-bottom: 160px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    padding-bottom: 160px;
+    padding-left: 112px;
+    padding-right: 112px;
     background: #FBF7F3;
 }
 
@@ -329,7 +331,10 @@ body {
 .bike_background_img_text_all {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding-bottom: 77px;
+    margin-left: 180px;
+    margin-right: 240px;
 }
 
 .bike_background_img_text_all img {
