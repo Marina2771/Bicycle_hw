@@ -47,6 +47,10 @@ body {
     color: #8D867C;
 }
 
+.texttop_links p:hover {
+    border-bottom: 1px solid #2E2C34;
+}
+
 .top_links p {
     padding-right: 50px;
 }
@@ -55,7 +59,7 @@ body {
     padding-left: 40px;
 }
 
-.header-button { /**не становится по центру**/
+.header-button {
     display: flex;
     justify-content: center;
     align-items: center;
