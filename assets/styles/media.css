@@ -1,24 +1,63 @@
 @media screen and (max-width: 1920px) {
     * {
-    padding: 0;
-    margin: 0;    
+        box-sizing: border-box;
     }
+
     body {
     max-width: 1920px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
+    background: 100%;
+    background: #FBF7F3; ;  
     }
-    header {
-        display: none /** не убирает(**/
-    } 
+}
 
+
+@media screen and (max-width: 1100px) {
+    * {
+        box-sizing: border-box;
     }
-
-
-@media screen and (max-width: 320px) {
     body {
         max-width: 320px;
         width: 100%;
-        margin: 0 auto;
-        }
+        margin: 0;
     }
+        
+    header {
+        display: none;
+    } 
+
+    .section_battery_belt_power {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 160px;
+        padding-left: 112px;
+        padding-right: 112px;
+        background: #FBF7F3;
+    }
+    .move_with_impact {
+        background: 100%;
+        background: url('../images/Rectangle2.jpg')
+    }
+    .ride img {
+        display: none;
+    }
+
+    .ride {
+        display: flex;
+        flex-direction: column;
+        background: #FBF7F3;
+    }
+    .built_to_move_img {
+        display: none;
+    }
+    .ride_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}

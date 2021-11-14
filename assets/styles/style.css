@@ -269,7 +269,7 @@ body {
     background: #FBF7F3;
 }
 
-.battery_belt_power { /**не прилипает к левой стороне**/
+.battery_belt_power {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
